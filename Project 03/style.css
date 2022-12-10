@@ -1,0 +1,157 @@
+body {
+    margin: 0;
+    padding: 30px 80px;
+}
+
+.navbar-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.navbar-container div:first-child img {
+    display: block;
+    width: 120px;
+}
+
+.list {
+    display: flex;
+}
+
+.list-item {
+    list-style: none;
+    margin-right: 60px;
+    font-weight: 700;
+    font-size: 18px;
+}
+
+.button-group {
+    display: flex;
+    align-items: center;
+}
+
+.search-icon {
+    margin-right: 10px;
+    margin-top: 10px;
+}
+
+.nav-button {
+    padding: 5px 40px;
+    border-radius: 10px;
+    background-color: #ffffff;
+    font-size: 18px;
+    color: rgb(126, 126, 126);
+}
+
+.hero-container {
+    display: flex;
+
+}
+
+.hero-container div:nth-child(5) img {
+    position: absolute;
+    top: 160px;
+    left: 80px;
+    display: block;
+    width: 320px;
+
+}
+
+.square img {
+    position: absolute;
+    top: 310px;
+    left: 160px;
+    display: block;
+    width: 300px;
+}
+
+.globe img {
+    width: 50px;
+}
+
+.globe {
+    position: absolute;
+    right: 520px;
+    top: 120px;
+    display: block;
+    height: 10px;
+}
+
+.hero-container span:nth-child(3).star {
+    position: absolute;
+    right: 160px;
+    top: 160px;
+
+}
+
+.hero-container span:nth-child(2).star {
+    position: absolute;
+    left: 550px;
+    bottom: 40px;
+}
+
+.star img {
+    width: 45px;
+}
+
+.hero-container-right {
+    width: 70%;
+    margin-left: 550px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    height: 80vh;
+    justify-content: center;
+}
+
+.hero-container-right .hero-heading {
+    font-size: 40px;
+    font-family: Orbitron;
+    margin-top: 180px;
+    font-stretch: ultra-expanded;
+}
+
+.hero-container-right .hero-description {
+    font-family: Poppins;
+    font-size: 14px;
+    text-align: center;
+}
+
+.hero-container-right div:nth-child(3) {
+    margin-top: 30px;
+}
+
+.button-email {
+    padding: 5px 30px;
+    font-family: Orbitron;
+    border-radius: 10px;
+    font-weight: bolder;
+}
+
+.button-join {
+    padding: 5px 8px;
+    font-family: Orbitron;
+    border-radius: 10px;
+    background-color: #000000;
+    color: #ffffff;
+}
+
+.hero-container-right div:nth-child(4) {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 25px;
+}
+
+.icons span img {
+    padding: 0px 14px;
+    width: 30px;
+}
+
+.hero-container-right div:nth-child(4) h4 {
+    font-family: Poppins;
+    font-size: 22px;
+    font-weight: 400;
+    position: relative;
+    top: 18px;
+}
