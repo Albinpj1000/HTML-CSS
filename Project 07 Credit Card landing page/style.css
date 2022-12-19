@@ -134,7 +134,7 @@ body {
     padding: 50px 0px;
     background-color: rgb(41, 40, 40);
     margin-top: 50px;
-    width: 100%;
+    width: 100vw;
 }
 
 .service-text {
@@ -224,7 +224,6 @@ body {
 
 .review {
     display: flex;
-
     padding: 50px;
     flex-wrap: wrap;
 }
@@ -350,4 +349,210 @@ body {
 
 .footer .list {
     margin-left: 20%;
+}
+
+@media screen and (max-width:800px) {
+    .list-items {
+        margin-left: 20px;
+    }
+
+    .hero-section h1 {
+        font-size: 70px;
+    }
+
+    #front-card {
+        top: 120px;
+        width: 250px;
+        right: 0;
+    }
+
+    #bg-card {
+        top: 100px;
+        left: 450px;
+        width: 250px;
+    }
+
+    .hero-flex {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .service-heading {
+        font-size: 30px;
+        margin-top: 15px;
+    }
+
+    .service-para {
+        font-size: 16px;
+        line-height: 30px;
+    }
+
+    .service-box {
+        width: 200px;
+        height: 300px;
+
+        padding: 0;
+        border: 1px solid #EFEFEF;
+        margin-top: 50px;
+        padding: 3px;
+    }
+
+    .review-head h1 {
+        font-size: 40px;
+    }
+
+    .review-box {
+        background-color: #1E1F24;
+        width: 400px;
+        height: 200px;
+        border: 1px solid #E0E0DF;
+        padding: 20px;
+        margin: 50px auto;
+    }
+
+    .customise-section {
+        height: 300px;
+    }
+
+    .customise-section h1 {
+        font-size: 40px;
+
+    }
+
+    .custom-banner1 {
+        bottom: 250px;
+    }
+
+    .custom-banner2 {
+        bottom: 540px;
+    }
+}
+
+@media screen and (min-width:320px)and (max-width:480px) {
+
+    .list-items {
+        margin-left: 10px;
+        font-size: 10px;
+    }
+
+    .navbar {
+        padding-left: 0px;
+        padding-right: 5px;
+    }
+
+    .nav-img {
+        width: 50px;
+    }
+
+    .hero-section h1 {
+        font-size: 50px;
+        line-height: 60px;
+    }
+
+    #front-card {
+        top: 120px;
+        width: 100px;
+        right: 40px;
+    }
+
+    #bg-card {
+        top: 110px;
+        width: 100px;
+        left: 320px;
+    }
+
+    .hero-section p {
+        font-size: 16px;
+        margin-top: 10px;
+    }
+
+    .log-section {
+        padding: 40px 8px;
+        background-color: rgb(41, 40, 40);
+        margin-top: 50px;
+        width: 100%;
+    }
+
+    .hero-flex {
+        margin-top: 20px;
+    }
+
+    .K-count {
+        font-size: 30px;
+    }
+
+    .log-section img {
+        width: 75px;
+    }
+
+    .service-heading {
+        font-size: 30px;
+    }
+
+    .service-para {
+        font-size: 18px;
+        line-height: 30px;
+        margin-left: 50px;
+    }
+
+    .service-box {
+        width: 150px;
+        height: 300px;
+        padding: 5px 5px;
+    }
+
+    .review-box {
+        background-color: #1E1F24;
+        width: 400px;
+        height: 250px;
+        border: 1px solid #E0E0DF;
+        padding: 20px;
+    }
+
+    .review-head h1 {
+        font-size: 30px;
+    }
+
+    .review-head p {
+        font-size: 18px;
+    }
+
+    .customise-section h1 {
+        font-size: 25px;
+
+    }
+
+    .custom-banner1 {
+        bottom: 150px;
+    }
+
+    .custom-banner2 {
+        bottom: 340px;
+    }
+
+    .customise-section {
+        height: 200px;
+        margin-top: 100px;
+    }
+
+    .custom-btn {
+        margin-top: 15px;
+        color: rgb(255, 255, 255);
+        height: 40px;
+        width: 240px;
+        font-size: 14px;
+    }
+
+    .footer .list .list-items {
+        margin-left: 6px
+    }
+
+    .footer .list {
+        margin-left: 5px
+    }
+
+    .service-box img {
+        width: 70px;
+    }
 }
