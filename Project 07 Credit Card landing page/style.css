@@ -2,4 +2,137 @@ body {
     background-color: rgb(16, 15, 15);
     color: aliceblue;
     max-width: 1440px;
+    font-weight: 500;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 50px;
+    padding-top: 15px;
+    padding-right: 30px;
+}
+
+.list {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.list-items {
+    list-style: none;
+    margin-left: 40px;
+    color: rgb(255, 255, 255);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+
+.nav-end {
+    display: flex;
+    align-items: center;
+}
+
+.nav-btn {
+    background-image: url(./Assets/Icons/btn-pink-bg.svg);
+    color: rgb(255, 255, 255);
+    background-size: 40px;
+    background-repeat: no-repeat;
+    height: 22px;
+    width: 100px;
+    background-color: rgb(16, 15, 15);
+    border: none;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 15px;
+    text-shadow: 10px;
+    font-weight: 500;
+}
+
+.hero-section {
+    padding-left: 50px;
+
+}
+
+.hero-section h1 {
+    margin-top: 50px;
+    font-size: 80px;
+    font-family: sans-serif;
+    font-weight: 100;
+    line-height: 90px;
+}
+
+.pink-text {
+    color: #F637EC;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 600;
+}
+
+.hero-section p {
+    color: rgb(179, 180, 182);
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    line-height: 30px;
+    margin-top: -40px;
+}
+
+.hero-btn {
+    margin-top: 30px;
+    background-color: rgb(16, 15, 15);
+    color: rgb(255, 255, 255);
+    height: 40px;
+    width: 200px;
+    font-size: 17px;
+    background-image: url(Assets/Icons/btn-pink-bg.svg);
+    background-repeat: no-repeat;
+    background-size: 65px;
+    font-weight: 600;
+    text-shadow: 50px;
+    border: none;
+}
+
+.hero-flex {
+    display: flex;
+
+    align-items: center;
+
+}
+
+.K-count {
+    font-size: 40px;
+}
+
+.hero-flex p {
+    margin: 20px;
+    color: aliceblue;
+    font-weight: 100;
+    font-family: serif;
+}
+
+.count2 {
+    margin-left: 20px;
+}
+
+#front-card {
+    position: absolute;
+    top: 80px;
+    width: 680px;
+    right: 0;
+}
+
+#bg-card {
+    position: absolute;
+    top: 30px;
+    left: 550px;
+    width: 680px;
+}
+
+.log-section {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 50px 0px;
+    background-color: rgb(41, 40, 40);
+    margin-top: 50px;
+    width: 100%;
 }
