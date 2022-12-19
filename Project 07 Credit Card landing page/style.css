@@ -136,3 +136,52 @@ body {
     margin-top: 50px;
     width: 100%;
 }
+
+.service-text {
+    display: flex;
+    justify-content: space-around;
+}
+
+.service-section {
+    padding: 80px 50px;
+}
+
+.service-heading {
+    font-size: 70px;
+    margin-top: -20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 100;
+    color: #ffffff;
+}
+
+.service-para {
+    font-size: 20px;
+    line-height: 30px;
+}
+
+.service-box {
+    width: 250px;
+    height: 250px;
+    background-color: #272727;
+    text-align: center;
+    padding: 15px 5px;
+    border: 1px solid #EFEFEF;
+}
+
+.service-img {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+.service-img p {
+    font-size: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+
+.cloud-box {
+    background-color: #504E4D;
+    position: relative;
+    bottom: 50px;
+    border: 1px solid #F1F1F1;
+}
