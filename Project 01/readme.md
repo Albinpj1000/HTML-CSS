@@ -1,1 +1,1 @@
-![Credit card landing page](https://user-images.githubusercontent.com/110523986/208910028-d1910299-7fef-4a0d-890d-f94c08909897.png)
+![output](https://user-images.githubusercontent.com/110523986/208910829-186d3b30-90b1-4b88-80e8-e4fce1e2679c.png)
