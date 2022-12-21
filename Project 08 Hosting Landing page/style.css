@@ -543,6 +543,7 @@ span {
 .footer-img {
     padding: 20px;
     padding-bottom: 40px;
+<<<<<<< HEAD
 }
 
 /* Extra small devices (phones, 600px and down) */
@@ -591,3 +592,6 @@ span {
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */
 @media only screen and (min-width: 1200px) {}
+=======
+}
+>>>>>>> 0b6235bba0c5269cb955dcadb3e7ec01faa7e755
