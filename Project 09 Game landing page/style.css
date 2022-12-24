@@ -49,3 +49,124 @@ body {
     color: #FFFFFF;
     padding: 10px 15px;
 }
+
+.hero-section {
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 60px;
+    color: #FFFFFF;
+}
+
+.hero-left h1 {
+    font-size: 55px;
+    font-weight: 700;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.hero-left p {
+    font-size: 15px;
+    font-weight: 400;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 35px;
+}
+
+.hero-left button {
+    padding: 10px 20px;
+    margin: 30px 5px;
+    color: rgb(255, 255, 255);
+    font-size: 15px;
+    font-weight: 600;
+}
+
+.get-btn {
+    background-color: #F4694C;
+}
+
+.learn-btn {
+    background-color: transparent;
+    border: 1px solid #fff;
+}
+
+.hero-right {
+    display: flex;
+    flex-direction: column;
+}
+
+.hero-right-btm {
+    display: flex;
+    align-items: baseline;
+    margin-top: 50px;
+}
+
+.hero-right-btm p {
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-top: 50px;
+}
+
+.dash {
+    margin: 0px 10px;
+}
+
+.right-arrow {
+    margin: 40px;
+    position: relative;
+    top: 55px;
+}
+
+.play-btn {
+    padding: 80px 100px;
+    margin-top: 50px;
+}
+
+.popular-cards {
+    display: flex;
+    justify-content: center;
+
+}
+
+.cards {
+    border: 1px solid rgb(0, 0, 0);
+    width: 230px;
+    height: 300px;
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+.card1 {
+    background-image: url(./Assets/Photos/image\ 2.png);
+    background-size: cover;
+    background-position-x: 75%;
+    background-position-y: center;
+}
+
+.card-text {
+    background: rgba(137, 137, 137, 0.601);
+    height: 30%;
+    padding: 10px;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+}
+
+.card-text h2 {
+    font-size: 15px;
+}
+
+.card-text p {
+    font-size: 12px;
+    margin-top: -10px;
+}
+
+.star-group {
+    margin-top: -10px;
+}
+
+.card-btn {
+    padding: 8px 10px;
+    font-size: 10px;
+    margin-top: 20px;
+
+}
