@@ -356,18 +356,20 @@ span {
     background-color: #F4694C;
     color: #fff;
     border: none;
-    margin-top: 10px;
+
 }
 
 .most {
     background-color: #000308;
-    padding: 20px 60px;
+    padding: 60px 60px;
+    padding-bottom: 100px;
 }
 
 .most-heading {
     color: #fff;
     text-align: center;
     font-size: 30px;
+    margin-top: -20px;
 }
 
 .most-games-right p {
@@ -403,4 +405,33 @@ span {
     display: flex;
     justify-content: flex-start;
     align-items: flex-end;
+}
+
+.exp {
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.552), rgba(0, 0, 0, 0.552)), url(./Assets/Photos/Rectangle\ 606.png);
+    background-size: cover;
+    padding: 80px 0px;
+    text-align: center;
+}
+
+.exp h1 {
+    color: #fff;
+    font-weight: 700;
+    font-size: 40px;
+}
+
+.exp p {
+    color: #888a8d;
+    font-size: 14px;
+    line-height: 20px;
+}
+
+.exp-btn {
+    padding: 10px 25px;
+    font-size: 12px;
+    background-color: #F4694C;
+    color: #fff;
+    font-weight: 700;
+    border: none;
+    margin-top: 30px;
 }
