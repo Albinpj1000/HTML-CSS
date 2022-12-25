@@ -4,6 +4,7 @@ body {
     padding: 0;
     overflow-x: hidden;
     /* background-color: black; */
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 .header {
@@ -258,4 +259,102 @@ body {
     background-color: #FFFFFF;
     color: #F4694C;
     border: 1px solid #F4694C;
+}
+
+.recommended {
+    padding: 70px 70px;
+
+}
+
+.recommended-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.recommended-top-left h1 {
+    font-size: 30px;
+}
+
+.rose-box {
+    background-color: #FDE1DB;
+    width: 35px;
+    height: 40px;
+    margin: 5px;
+    text-align: center;
+
+}
+
+.orange-box {
+    background-color: #F4694C;
+    width: 35px;
+    height: 40px;
+    margin: 5px;
+    text-align: center;
+
+}
+
+.recommended-top-right {
+    display: flex;
+
+}
+
+.left-arrow {
+    margin-top: 14px;
+}
+
+.next-arrow {
+    margin-top: 14px;
+}
+
+.recommended-mid {
+    display: flex;
+    justify-content: space-between;
+}
+
+.recommended-btm {
+    display: flex;
+    justify-content: space-between;
+}
+
+.recommended-img {
+    width: 180px;
+    height: 200px;
+}
+
+.recommended-game {
+    display: flex;
+    margin: 20px 40px;
+}
+
+.recommended-text {
+    margin: 0px 20px;
+
+
+}
+
+.recommended-text h1 {
+    font-size: 18px;
+    margin-top: 7px;
+}
+
+.recommended-text p {
+    font-size: 13px;
+    font-weight: 500;
+    color: rgb(109, 108, 108);
+    line-height: 20px;
+}
+
+span {
+    color: #F4694C;
+}
+
+.recommended-btn {
+    padding: 10px 20px;
+    font-size: 12px;
+    font-weight: 600;
+    background-color: #F4694C;
+    color: #fff;
+    border: none;
+    margin-top: 10px;
 }
