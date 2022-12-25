@@ -2,6 +2,8 @@ body {
     background-color: #FFFFFF;
     margin: 0;
     padding: 0;
+    overflow-x: hidden;
+    /* background-color: black; */
 }
 
 .header {
@@ -95,7 +97,7 @@ body {
 .hero-right-btm {
     display: flex;
     align-items: baseline;
-    margin-top: 50px;
+    margin-top: -20px;
 }
 
 .hero-right-btm p {
@@ -116,13 +118,23 @@ body {
 
 .play-btn {
     padding: 80px 100px;
-    margin-top: 50px;
+    margin-top: 110px;
 }
 
 .popular-cards {
     display: flex;
     justify-content: center;
 
+}
+
+.popular {
+    padding: 60px 0px;
+}
+
+.popular h1 {
+    text-align: center;
+    margin-top: 50px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 .cards {
@@ -133,6 +145,7 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
+    border: none;
 }
 
 .card1 {
@@ -142,9 +155,30 @@ body {
     background-position-y: center;
 }
 
+.card2 {
+    background-image: url(./Assets/Photos/image\ 4.png);
+    background-size: cover;
+    background-position-x: center;
+    background-position-y: center;
+}
+
+.card3 {
+    background-image: url(./Assets/Photos/image\ 3.png);
+    background-size: cover;
+    background-position-x: center;
+    background-position-y: center;
+}
+
+.card4 {
+    background-image: url(./Assets/Photos/Rectangle\ 56.png);
+    background-size: cover;
+    background-position-x: center;
+    background-position-y: center;
+}
+
 .card-text {
     background: rgba(137, 137, 137, 0.601);
-    height: 30%;
+    height: 22%;
     padding: 10px;
     color: #fff;
     display: flex;
@@ -153,6 +187,7 @@ body {
 
 .card-text h2 {
     font-size: 15px;
+
 }
 
 .card-text p {
@@ -168,5 +203,59 @@ body {
     padding: 8px 10px;
     font-size: 10px;
     margin-top: 20px;
+    background-color: #F4694C;
+    color: #fff;
+    font-weight: 500;
+    border: none;
+}
 
+.wargame {
+    display: flex;
+    padding: 60px;
+    justify-content: space-around;
+}
+
+.wargame-img {
+    width: 430px;
+    height: 300px;
+}
+
+.wargame-text h1 {
+    font-size: 30px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-top: 10px;
+    font-weight: 700;
+}
+
+.wargame-text p {
+    font-weight: 500;
+    font-size: 15px;
+    color: rgb(109, 108, 108);
+    margin-top: 20px;
+    line-height: 25px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.wargame-text {
+    margin-bottom: 10px;
+
+}
+
+.wargame-btn {
+    padding: 10px 15px;
+    font-size: 12px;
+    font-weight: 600;
+    margin: 20px 5px;
+}
+
+.wargame-explore-btn {
+    background-color: #F4694C;
+    color: #fff;
+    border: none;
+}
+
+.wargame-learn-btn {
+    background-color: #FFFFFF;
+    color: #F4694C;
+    border: 1px solid #F4694C;
 }
