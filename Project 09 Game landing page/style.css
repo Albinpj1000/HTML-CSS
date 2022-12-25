@@ -358,3 +358,49 @@ span {
     border: none;
     margin-top: 10px;
 }
+
+.most {
+    background-color: #000308;
+    padding: 20px 60px;
+}
+
+.most-heading {
+    color: #fff;
+    text-align: center;
+    font-size: 30px;
+}
+
+.most-games-right p {
+    color: #75777b;
+    margin-top: 40px;
+    line-height: 25px;
+}
+
+.most-games {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 40px;
+}
+
+.most-games-left {
+    width: 300px;
+    height: 400px;
+}
+
+.img1 {
+    width: 200px;
+    margin-top: 50px;
+    height: 300px;
+}
+
+.img2 {
+    width: 200px;
+    height: 200px;
+    margin-left: 100px;
+}
+
+.most-games-right-img {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-end;
+}
