@@ -214,3 +214,102 @@ section {
     top: 80px;
     background-image: url(./assets/Photos/cardImage9.png);
 }
+
+.modern {
+    display: flex;
+    justify-content: space-between;
+}
+
+.modern-left {
+    width: 60%;
+    height: 80vh
+}
+
+.modern-right {
+    width: 40%;
+    padding: 0px 20px;
+}
+
+.modern-img {
+    width: 100px;
+    position: absolute;
+    width: 37%;
+    left: 120px;
+    border-radius: 20px;
+    height: 70%;
+}
+
+.modern-logo {
+    width: 100px;
+    position: absolute;
+    width: 50%;
+    left: 0;
+    z-index: -1;
+}
+
+.modern-right h1 {
+    font-size: 50px;
+    margin-top: 70px;
+}
+
+.modern-right p {
+    font-size: 15px;
+    margin-top: 20px;
+    line-height: 25px;
+}
+
+.feature-btn {
+    padding: 12px 25px;
+    border-radius: 25px;
+    background-color: #6663E9;
+    border: none;
+    color: #fff;
+    font-weight: 700;
+    margin-top: 40px;
+}
+
+.unique {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 100px;
+}
+
+.unique-left {
+    width: 40%;
+    height: 80vh;
+    padding-left: 80px;
+}
+
+.unique-right {
+    width: 60%;
+    padding: 0px 20px;
+
+}
+
+.unique-img {
+    width: 100px;
+    position: absolute;
+    width: 37%;
+    right: 120px;
+    border-radius: 20px;
+    height: 70%;
+}
+
+.unique-logo {
+    width: 100px;
+    position: absolute;
+    width: 50%;
+    z-index: -1;
+    right: 0;
+}
+
+.unique-left h1 {
+    font-size: 50px;
+    margin-top: 70px;
+}
+
+.unique-left p {
+    font-size: 15px;
+    margin-top: 20px;
+    line-height: 25px;
+}
