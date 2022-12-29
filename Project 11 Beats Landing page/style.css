@@ -12,12 +12,10 @@ body {
     color: #fff;
 }
 
-.hero-container {
-    border: 1px solid;
-}
+.hero-container {}
 
 .navbar {
-    border: 1px solid red;
+
     padding: 10px 100px;
     display: flex;
     justify-content: space-between;
@@ -95,12 +93,12 @@ body {
 }
 
 .hero-right {
-    border: 1px solid;
+
     margin: 0px 75px;
 }
 
 .hero-left {
-    border: 1px solid;
+
     margin: 0px 75px;
     width: 22%;
 }
@@ -265,7 +263,7 @@ body {
 .product-row1 {
     display: flex;
     justify-content: center;
-    border: 1px solid;
+
 }
 
 .products-section {
@@ -274,7 +272,7 @@ body {
 
 .product {
     margin: 0px 80px;
-    border: 1px solid;
+
     width: 250px;
     height: 280px;
 }
@@ -315,7 +313,7 @@ body {
 }
 
 .product-text-left {
-    border: 1px solid;
+
     width: 150px;
 }
 
@@ -323,10 +321,82 @@ body {
     display: flex;
     justify-content: start;
     margin-top: 50px;
-    border: 1px solid;
+
 }
 
 .product4,
 .product5 {
     width: 230px;
+}
+
+/* -------------------------------------footer--------------------------------- */
+.footer {
+    padding: 80px 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+
+
+}
+
+.footer-img {
+    width: 40px;
+    margin-top: 18px;
+
+
+}
+
+.footer-list {
+    list-style: none;
+
+}
+
+.footer-items {
+    margin-bottom: 10px;
+}
+
+.footer-items-head {
+    margin-bottom: 20px;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.footer-social {
+
+    margin-top: 15px;
+}
+
+.subscribe {
+    width: 300px;
+    display: flex;
+    justify-content: space-between;
+    padding: 4px 10px;
+    align-items: center;
+    color: #BDC0C2;
+    border-radius: 10px;
+}
+
+.sub-btn {
+    height: 42px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #fff;
+    font-weight: 500;
+    background-color: #000;
+    border-radius: 7px;
+    padding: 0px 15px;
+}
+
+.sub-btn img {
+    margin-right: 10px;
+}
+
+.footer-connection {
+    margin-top: 30px;
+}
+
+.footer-icon {
+    margin-right: 15px;
 }
