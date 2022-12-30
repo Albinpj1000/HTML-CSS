@@ -154,3 +154,71 @@ body h1 h2 {
 .ins-card p {
     font-size: 12px;
 }
+
+.launch-section {
+    padding: 20px 80px;
+    margin-top: 80px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.teams {
+    width: 170px;
+    padding: 0px 10px;
+    font-weight: 500;
+}
+
+.launch-right p {
+    font-size: 13px;
+    line-height: 25px;
+}
+
+.pipeline-section {
+    padding: 20px 80px;
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.E-teams {
+    width: 200px;
+    padding: 0px 10px;
+    font-weight: 500;
+}
+
+.pipe-left p {
+    font-size: 13px;
+    line-height: 25px;
+}
+
+.review {
+    text-align: center;
+    margin-top: 0px;
+    padding: 140px 50px;
+    background: linear-gradient(to top, #F2F8FF 50%, #FCF8FF);
+    clip-path: polygon(0 20%, 100% 0, 100% 82%, 0 100%);
+    border: 1px solid;
+}
+
+.review h1 {
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.review p {
+    font-size: 12px;
+    font-weight: 900;
+    color: #000;
+}
+
+.logo-section {
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.line {
+    margin-top: 40px
+}
