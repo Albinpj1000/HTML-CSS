@@ -6,7 +6,7 @@ body {
 }
 
 body p {
-    color: #ADADBE;
+    color: #6f6f72;
 }
 
 body h1 h2 {
@@ -112,4 +112,45 @@ body h1 h2 {
     margin-top: 50px;
 }
 
-.insight-section {}
+.insight-section {
+    margin-top: 100px;
+    padding: 0px 80px;
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+}
+
+.qubly {
+    width: 115px;
+    font-size: 15px;
+    padding: 0px 5px;
+}
+
+.insight-section p {
+    text-align: center;
+}
+
+.ins-card {
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+}
+
+.ins-img {
+    width: 50px;
+}
+
+.insights {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    margin-top: 20px;
+}
+
+.ins-card h2 {
+    font-size: 18px;
+}
+
+.ins-card p {
+    font-size: 12px;
+}
