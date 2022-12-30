@@ -222,3 +222,85 @@ body h1 h2 {
 .line {
     margin-top: 40px
 }
+
+.end {
+    padding: 50px 80px;
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.end-left {
+
+    padding: 10px 10px;
+}
+
+.end-left h1 {
+    font-size: 30px;
+}
+
+.line {
+    height: 1px;
+    background-color: #a5a5a5;
+    width: 100px;
+}
+
+.trust-line {
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+    margin-top: -40px;
+}
+
+.trust-line p {
+    margin: 40px 20px;
+}
+
+.logo-box-img {
+    width: 90px;
+    justify-self: center;
+    margin: 20px;
+}
+
+.logo-box {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+}
+
+.end-right {
+
+    flex-direction: column;
+    display: flex;
+    width: 30%;
+    text-align: center;
+}
+
+.end-right h1 {
+    font-size: 20px;
+}
+
+.signup-box {
+    padding: 10px;
+
+    width: 80%;
+    margin: 8px auto;
+}
+
+.input-box {
+    text-align: left;
+    background-color: #fff;
+    border: 1px solid rgb(211, 202, 202);
+    color: #6f6f72;
+}
+
+.signup-box-purple {
+    background-color: #722ED1;
+    color: #fff;
+    font-weight: 500;
+}
+
+.google-img {
+    width: 200px;
+    margin: 0px auto;
+}
