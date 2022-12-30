@@ -274,6 +274,7 @@ body h1 h2 {
     display: flex;
     width: 30%;
     text-align: center;
+    box-shadow: 0px 20px 40px 2px #c6c6cb;
 }
 
 .end-right h1 {
@@ -303,4 +304,51 @@ body h1 h2 {
 .google-img {
     width: 200px;
     margin: 0px auto;
+}
+
+.footer {
+    display: flex;
+    padding: 50px 80px;
+    justify-content: space-around;
+    background-color: #E3F2FF;
+}
+
+.social p {
+    font-size: 13px;
+    color: #000;
+}
+
+.social-icons {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.footer-icon {
+    margin-right: 15px;
+    width: 25px;
+}
+
+.footer-list {
+    list-style: none;
+}
+
+.footer-items {
+    margin-bottom: 10px;
+    font-size: 13px;
+    font-weight: 400;
+}
+
+.items-head {
+    font-size: 15px;
+    font-weight: 700;
+    margin-bottom: 15px;
+}
+
+.letter {
+    background-color: #fff;
+    width: 150px;
+    padding: 10px 10px;
+    display: flex;
+    justify-content: space-between;
+    box-shadow: 0px 5px 10px 2px #c6c6cb;
 }
